@@ -45,37 +45,38 @@ GET	/notes/{id}	Fetch a note by ID
 
 ## 🏗 Project Structure
 PolicyNotes.Api/
-│   Program.cs
-│   appsettings.json
+│── Program.cs
+│── appsettings.json
 │
 ├── Controllers/
-│      NotesController.cs
+│     └── NotesController.cs
 │
 ├── Data/
-│      NotesDbContext.cs
+│     └── NotesDbContext.cs
 │
 ├── DTOs/
-│      NoteCreateDto.cs
+│     └── NoteCreateDto.cs
 │
 ├── Models/
-│      PolicyNote.cs
+│     └── PolicyNote.cs
 │
 ├── Repositories/
-│      IPolicyNoteRepository.cs
-│      PolicyNoteRepository.cs
+│     ├── IPolicyNoteRepository.cs
+│     └── PolicyNoteRepository.cs
 │
 └── Services/
-       IPolicyNoteService.cs
-       PolicyNoteService.cs
+      ├── IPolicyNoteService.cs
+      └── PolicyNoteService.cs
 
 
 PolicyNotes.Tests/
 │
 ├── Unit/
-│      PolicyNoteServiceTests.cs
+│     └── PolicyNoteServiceTests.cs
 │
 └── Integration/
-       NotesApiIntegrationTests.cs
+      └── NotesApiIntegrationTests.cs
+
 
 ## 📦 NuGet Packages
 PolicyNotes.Api
