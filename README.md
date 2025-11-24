@@ -44,39 +44,9 @@ GET	/notes/{id}	Fetch a note by ID
 ✔ Unit Tests
 
 ## 🏗 Project Structure
-PolicyNotes.Api/
-│── Program.cs
-│── appsettings.json
-│
-├── Controllers/
-│     └── NotesController.cs
-│
-├── Data/
-│     └── NotesDbContext.cs
-│
-├── DTOs/
-│     └── NoteCreateDto.cs
-│
-├── Models/
-│     └── PolicyNote.cs
-│
-├── Repositories/
-│     ├── IPolicyNoteRepository.cs
-│     └── PolicyNoteRepository.cs
-│
-└── Services/
-      ├── IPolicyNoteService.cs
-      └── PolicyNoteService.cs
+## 📁 Project Structure
 
-
-PolicyNotes.Tests/
-│
-├── Unit/
-│     └── PolicyNoteServiceTests.cs
-│
-└── Integration/
-      └── NotesApiIntegrationTests.cs
-
+The solution follows a clean architecture with API, Repository, Service, and Test layers.
 
 ## 📦 NuGet Packages
 PolicyNotes.Api
