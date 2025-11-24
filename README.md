@@ -43,44 +43,6 @@ GET	/notes/{id}	Fetch a note by ID
 🧪 Testing Overview
 ✔ Unit Tests
 
-Located in:
-
-PolicyNotes.Tests/Unit/PolicyNoteServiceTests.cs
-
-
-Covers:
-
-Add Note
-
-Get All Notes
-
-Get Note By ID
-
-Uses:
-
-xUnit
-
-Moq
-
-✔ Integration Tests
-
-Located in:
-
-PolicyNotes.Tests/Integration/NotesApiIntegrationTests.cs
-
-
-Integration tests:
-
-Remove the DevDb registered in Program.cs
-
-Inject a separate InMemory TestDb
-
-Use TestServer via WebApplicationFactory
-
-Test full API endpoints (POST, GET, etc.)
-
-Fulfills assignment requirements 1, 2, and 3.
-
 ## 🏗 Project Structure
 PolicyNotes.Api/
 │   Program.cs
