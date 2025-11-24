@@ -44,7 +44,6 @@ GET	/notes/{id}	Fetch a note by ID
 ✔ Unit Tests
 
 ## 🏗 Project Structure
-## 📁 Project Structure
 
 The solution follows a clean architecture with API, Repository, Service, and Test layers.
 
