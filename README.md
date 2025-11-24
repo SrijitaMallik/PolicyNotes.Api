@@ -1,4 +1,4 @@
-##📝 PolicyNotes API
+## 📝 PolicyNotes API
 A clean and simple ASP.NET Core Web API with Unit Testing & Integration Testing
 
 This project implements a lightweight Policy Notes Management System built using ASP.NET Core Web API (.NET 8) and Entity Framework Core (InMemory).
@@ -15,7 +15,7 @@ Database (InMemory)
 
 The assignment requirement of using two separate InMemory databases — one for development and one for integration testing — is fully implemented.
 
-##🚀 Features
+## 🚀 Features
 
 ⚙️ Clean Web API Architecture (Controller → Service → Repository)
 
@@ -35,7 +35,7 @@ The assignment requirement of using two separate InMemory databases — one for 
 
 🔐 Easily extendable to SQL Server / EF Core
 
-##📚 API Endpoints
+## 📚 API Endpoints
 Method	Route	Description
 POST	/notes	Create a new policy note
 GET	/notes	Fetch all notes
@@ -81,7 +81,7 @@ Test full API endpoints (POST, GET, etc.)
 
 Fulfills assignment requirements 1, 2, and 3.
 
-##🏗 Project Structure
+## 🏗 Project Structure
 PolicyNotes.Api/
 │   Program.cs
 │   appsettings.json
@@ -115,7 +115,7 @@ PolicyNotes.Tests/
 └── Integration/
        NotesApiIntegrationTests.cs
 
-##📦 NuGet Packages
+## 📦 NuGet Packages
 PolicyNotes.Api
 Microsoft.EntityFrameworkCore
 Microsoft.EntityFrameworkCore.InMemory
